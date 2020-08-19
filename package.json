@@ -2,13 +2,14 @@
   "name": "basic-auth-sample",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "engines": {
     "node": "12.x"
   },
   "scripts": {
     "start": "node main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vercel": "vercel"
   },
   "repository": {
     "type": "git",
@@ -22,11 +23,11 @@
   },
   "homepage": "https://github.com/turusuke/basic-auth-sample#readme",
   "dependencies": {
-    "fastify": "^3.2.1",
-    "fastify-basic-auth": "^1.0.1",
-    "fastify-static": "^3.2.0"
+    "safe-compare": "^1.1.4",
+    "static-auth": "^2.0.0"
   },
   "devDependencies": {
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "vercel": "^19.2.0"
   }
 }
